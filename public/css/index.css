@@ -1,0 +1,145 @@
+:root {
+     background: white;
+}
+
+html {
+     color: black;
+}
+
+h1 {
+     background: blue;
+}
+
+.green {
+     color: green;
+}
+
+#blue {
+     color: blue;
+}
+
+.box {
+     color: green;
+}
+
+div p {
+     background: red;
+}
+
+.brown {
+     background: brown;
+     color: white;
+}
+
+ul>li {
+     background: red;
+}
+
+.header-button+span {
+     background: red;
+}
+
+.susid~p {
+     background: blue;
+     color: white;
+}
+
+.salo,
+#bread {
+     background: yellow;
+}
+
+/*task2*/
+
+li:first-child {
+     color: white;
+}
+
+.second-task ul:first-child li:first-child {
+     color: yellow;
+}
+
+.third-task ul:last-child li:first-child {
+     background: yellow;
+}
+
+.four-task li:last-child {
+     background: yellow;
+}
+
+.five-task ul:last-child li:last-child {
+     color: rgb(163, 240, 230);
+}
+
+section div:only-child {
+     color: red;
+}
+
+.seven-task p:first-of-type {
+     background: rgb(145, 72, 72);
+}
+
+.eight-task p:last-of-type {
+     background: rgb(117, 6, 6);
+}
+
+.nine-task p:only-of-type {
+     background: rgb(236, 181, 28);
+}
+
+/*task3*/
+
+.lesson-three-task-one a[href] {
+     color: white;
+}
+
+.lesson-three-task-two li[value] {
+     color: darkgoldenrod
+}
+
+.lesson-three-task-three li[value='3'] {
+     background: rgb(115, 6, 6)
+}
+
+.lesson-three-task-four button[class~=primary] {
+     background: rgb(24, 14, 168);
+}
+
+.lesson-three-task-five button[class|=secondary] {
+     background: rgb(187, 12, 12)
+}
+
+.lesson-three-task-six li[class^="b"] {
+     color: green;
+     background: rgb(204, 216, 207)
+}
+
+.lesson-three-task-seven li[class*="on"] {
+     color: rgb(50, 133, 50);
+     background: rgb(238, 243, 240)
+}
+
+.lesson-three-task-eight span[class$="s"] {
+     color: rgb(34, 37, 187);
+     background: rgb(210, 209, 235)
+}
+
+.lesson-three-task-nine h2::first-letter {
+     color: rgb(226, 39, 211)
+}
+
+.lesson-three-task-ten p::first-line {
+     background: yellow
+}
+
+.lesson-three-task-eleven input::placeholder {
+     background: rgba(209, 20, 36, 0.877)
+}
+
+.lesson-three-task-twelve li::before {
+     content: ">";
+}
+
+.lesson-three-task-thirteen li::after {
+     content: ">";
+}
